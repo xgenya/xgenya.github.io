@@ -33,6 +33,7 @@ permalink: /:slug.html
 theme: no-style-please
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -62,6 +63,3 @@ theme_config:
 sass:
   style: :compressed
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
